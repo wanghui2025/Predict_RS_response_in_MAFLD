@@ -57,22 +57,7 @@ python predict_RS_responder_state.py \
 
   - Each row = one sample
 
-  - Each column = one feature, feature order is as below
-
-    ```
-    'k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Anaerostipes',
-           'k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella',
-           'k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_thetaiotaomicron',
-           'k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis',
-           'k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Lacrimispora',
-           'k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Paraprevotella',
-           'PWY-6527: stachyose degradation',
-           'HSERMETANA-PWY: L-methionine biosynthesis III',
-           'LACTOSECAT-PWY: lactose and galactose degradation I',
-           'P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)',
-           'PWY-6353: purine nucleotides degradation II (aerobic)', 'B.p exist state', 'Waist',
-           'LDLC', 'BMI', 'DBP', 'TBA', 'TBIL', 'SBP', 'UA', 'Hip'
-    ```
+  - Each column = one feature
 
     
 
