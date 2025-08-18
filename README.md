@@ -34,6 +34,11 @@ pip install numpy pandas xgboost
 ## 🚀 Usage
 
 First, unzip the model file(all_xgb_models.pkl.zip) in model dir
+```
+#terminal
+cd model
+unzip all_xgb_models.pkl.zip
+```
 
 Then, prepare your own file and Run the script with command-line arguments:
 
