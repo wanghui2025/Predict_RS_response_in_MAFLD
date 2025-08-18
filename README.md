@@ -9,7 +9,7 @@ This repository provides a Python script to predict **Responder State** (High Re
 
 ## 📦 Requirements
 
-Make sure you have Python >3.0 installed and the following dependencies:
+Make sure you have Python 3.8 installed and the following dependencies:
 
 ```bash
 pip install numpy pandas xgboost pickle argparse
