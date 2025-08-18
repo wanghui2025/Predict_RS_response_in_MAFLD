@@ -5,7 +5,7 @@ import pickle
 import argparse
 
 def main(input_file,output_file):
-    demo=pd.read_csv(input_file,header=None)
+    demo=pd.read_csv(input_file,index_col=0)
     with open('model/all_xgb_models.pkl', 'rb') as f:
         all_models = pickle.load(f)
     print("[INFO] Model loaded succuessfully")
@@ -30,5 +30,4 @@ if __name__ == "__main__":
     parser.add_argument("--output", "-o", required=True, help="Path to output CSV file")
 
     args = parser.parse_args()
-
     main(args.input, args.output)
