@@ -58,7 +58,7 @@ python predict_RS_responder_state.py \
 
 - **Input CSV** (`X_demo.csv`)
 
-  - No header (`header=None`)
+
 
   - Each row = one sample
 
@@ -66,13 +66,7 @@ python predict_RS_responder_state.py \
 
     
 
-  - Example:
-
-    ```
-    0.12,0.85,0.33,0.56,...
-    0.44,0.63,0.90,0.12,...
-    ```
-
+ 
 
 
 ## 📤 Output
